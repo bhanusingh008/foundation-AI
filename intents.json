@@ -1,0 +1,25 @@
+{
+  "intents":
+  [
+    {
+      "tag": "greeting",
+      "pattern": ["hello", "hey", "hi", "whats up dog?", "tell me something"],
+      "responses": ["hey!", "hello there", "what can i do for you today?"]
+    },
+    {
+      "tag": "bye",
+      "pattern": ["bye", "goodbye", "thanks", "see ya", "i am leaving"],
+      "responses": ["Sad to see you go", "okay take care bud", "Goodbye"]
+    },
+    {
+      "tag": "my creator",
+      "pattern": ["who made you?", "your creator", "your developer"],
+      "responses": ["Bhanu made me to understand how under the hood ai works! I am very basic but foundational", "https://github.com/bhanusingh008 - check him out"]
+    },
+    {
+      "tag": "i am",
+      "pattern": ["what are you?", "how you work?"],
+      "responses": ["I am just a chatbot, there is no real human intelligence like you", "Just fed on a lot of data, and my next generations do this data feeding on next levels"]
+    }
+  ]
+}
